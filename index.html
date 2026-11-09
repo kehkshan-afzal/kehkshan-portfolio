@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kehkshan | Frontend & AI Developer</title>
+<meta name="description" content="Portfolio of Kehkshan, a Frontend Developer and AI Developer from Pakistan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script defer src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+
+<body>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo" aria-label="Kehkshan home">&lt;K/&gt;</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+    <i data-lucide="menu"></i>
+  </button>
+  <nav id="links" aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HOME SECTION -->
+<section class="hero" id="home">
+  <div class="bg" aria-hidden="true">
+    <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" fill="none">
+      <g class="lines">
+        <path d="M-50 620L380 300L700 520L1250 140"/>
+        <path d="M-50 200L300 420L640 120L1250 460"/>
+        <path d="M200 850L520 560L900 700L1250 560"/>
+      </g>
+      <g class="tri">
+        <polygon class="t1" points="0,-26 24,16 -24,16" transform="translate(180 170)"/>
+        <polygon class="t2" points="0,-34 31,22 -31,22" transform="translate(1030 220)"/>
+        <polygon class="t3" points="0,-20 18,12 -18,12" transform="translate(940 640)"/>
+        <polygon class="t4" points="0,-28 26,18 -26,18" transform="translate(250 640)"/>
+      </g>
+    </svg>
+
+    <i class="dot" style="--x:12%;--y:30%;--d:0s"></i>
+    <i class="dot" style="--x:28%;--y:72%;--d:.8s"></i>
+    <i class="dot" style="--x:46%;--y:16%;--d:1.6s"></i>
+    <i class="dot" style="--x:63%;--y:80%;--d:.4s"></i>
+    <i class="dot" style="--x:80%;--y:34%;--d:1.2s"></i>
+    <i class="dot" style="--x:90%;--y:68%;--d:2s"></i>
+    <i class="dot" style="--x:72%;--y:12%;--d:.6s"></i>
+    <i class="dot" style="--x:6%;--y:84%;--d:1.4s"></i>
+  </div>
+
+  <div class="hero-in">
+    <p class="intro">Hello, I’m</p>
+    <h1>Kehkshan</h1>
+    <p class="typing">
+      <span id="typed">Frontend Developer</span>
+      <span class="caret"></span>
+    </p>
+    <p class="lead">
+      I build responsive websites and AI-powered applications that solve real-world problems.
+      I enjoy turning ideas into interactive digital experiences with modern web technologies and AI tools.
+    </p>
+
+    <div class="btns">
+      <a href="#contact" class="btn primary">Let’s Work Together</a>
+      <a href="#projects" class="btn ghost">View Projects</a>
+    </div>
+
+    <div class="social">
+      <a href="https://github.com/kehkshan-afzal/kehkshan-afzal"
+         target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <i data-lucide="github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/hafiza-kehkshan-afzal-a6469436b/"
+         target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <i data-lucide="linkedin"></i>
+      </a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll" aria-label="Scroll down">
+    <i data-lucide="chevron-down"></i>
+  </a>
+</section>
+
+<main>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="sec reveal">
+  <h2>About <b>me</b></h2>
+  <div class="about">
+    <div>
+      <p>
+        I’m an aspiring Frontend Developer and AI Developer who enjoys creating modern websites
+        and useful, intelligent applications. I work with HTML, CSS, JavaScript and Bootstrap
+        to build responsive user interfaces.
+      </p>
+      <p>
+        I also use Python, Streamlit and Gemini AI to develop AI-powered tools.
+        I learn by building practical projects, exploring new technologies and improving my problem-solving skills.
+      </p>
+    </div>
+
+    <ul class="facts">
+      <li>
+        <i data-lucide="map-pin"></i>
+        <span>Location<b>Pakistan</b></span>
+      </li>
+      <li>
+        <i data-lucide="layout-template"></i>
+        <span>Focus<b>Frontend &amp; AI applications</b></span>
+      </li>
+      <li>
+        <i data-lucide="book-open"></i>
+        <span>Approach<b>Learning through projects</b></span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="sec reveal">
+  <h2>Technical <b>skills</b></h2>
+
+  <div class="skills">
+    <div class="group">
+      <h3>Frontend Development</h3>
+      <ul>
+        <li><i data-lucide="file-code-2"></i>HTML5</li>
+        <li><i data-lucide="palette"></i>CSS3</li>
+        <li><i data-lucide="braces"></i>JavaScript</li>
+        <li><i data-lucide="layout-grid"></i>Bootstrap</li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h3>Programming &amp; AI</h3>
+      <ul>
+        <li><i data-lucide="code-2"></i>Python</li>
+        <li><i data-lucide="sparkles"></i>Google Gemini AI</li>
+        <li><i data-lucide="app-window"></i>Streamlit</li>
+        <li><i data-lucide="brain-circuit"></i>AI Application Development</li>
+        <li><i data-lucide="search"></i>RAG Concepts</li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h3>Tools &amp; Platforms</h3>
+      <ul>
+        <li><i data-lucide="git-branch"></i>Git</li>
+        <li><i data-lucide="github"></i>GitHub</li>
+        <li><i data-lucide="code"></i>VS Code</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="sec">
+  <h2>Featured <b>projects</b></h2>
+
+  <!-- PROJECT 1 -->
+  <article class="project reveal">
+    <div class="win">
+      <div class="bar"><i></i><i></i><i></i></div>
+      <div class="screen">
+        <div class="m-road">
+          <span><i></i><em>Foundations</em><b style="width:80%"></b></span>
+          <span><i></i><em>Build</em><b style="width:58%"></b></span>
+          <span><i></i><em>Practice</em><b style="width:34%"></b></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <h3>AI Learning Roadmap Generator</h3>
+      <p>
+        An AI-powered app that creates personalized learning roadmaps based on a user's
+        chosen field, current skill level and available study time.
+      </p>
+      <ul class="tags">
+        <li>Python</li><li>Gemini AI</li><li>Streamlit</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary sm"
+           href="https://ai-learning-roadmap-generater.streamlit.app/"
+           target="_blank" rel="noopener noreferrer">
+          <i data-lucide="external-link"></i>Live Demo
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- PROJECT 2 -->
+  <article class="project rev reveal">
+    <div class="win">
+      <div class="bar"><i></i><i></i><i></i></div>
+      <div class="screen">
+        <div class="m-ats">
+          <div class="score"><span>ATS</span></div>
+          <div>
+            <p>Resume analysis</p>
+            <div class="kw">
+              <u>Skills</u><u>Match</u><s>Suggestions</s>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <h3>Resume ATS Score Checker</h3>
+      <p>
+        An AI-based tool that compares a resume with a job description,
+        provides an ATS compatibility score and suggests ways to improve the resume.
+      </p>
+      <ul class="tags">
+        <li>Python</li><li>Gemini AI</li><li>Streamlit</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary sm"
+           href="https://kehkshan-afzal-ai-resume-assistant-app1-1y8bwe.streamlit.app/"
+           target="_blank" rel="noopener noreferrer">
+          <i data-lucide="external-link"></i>Live Demo
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- PROJECT 3 -->
+  <article class="project reveal">
+    <div class="win">
+      <div class="bar"><i></i><i></i><i></i></div>
+      <div class="screen">
+        <div class="m-chat">
+          <p class="q">What is the leave policy?</p>
+          <p class="a">Answer based on the uploaded HR policy document.</p>
+          <p class="q">Ask questions about policy content</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <h3>HR Policy Assistant (RAG PDF Assistant)</h3>
+      <p>
+        An AI assistant that retrieves relevant information from uploaded PDF documents
+        and answers questions based on the document content.
+      </p>
+      <ul class="tags">
+        <li>Python</li><li>Streamlit</li><li>PyMuPDF</li><li>FAISS</li><li>Gemini AI</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary sm"
+           href="https://kehkshan-afzal-rag-pdf-assistant-app-iuefqe.streamlit.app/"
+           target="_blank" rel="noopener noreferrer">
+          <i data-lucide="external-link"></i>Live Demo
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- PROJECT 4 -->
+  <article class="project rev reveal">
+    <div class="win">
+      <div class="bar"><i></i><i></i><i></i></div>
+      <div class="screen">
+        <div class="m-chat">
+          <p class="q">Create engaging content</p>
+          <p class="a">Your AI-generated content is ready.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <h3>AI Content Assistant</h3>
+      <p>
+        An AI-powered application designed to help users generate content
+        and turn their ideas into written drafts.
+      </p>
+      <ul class="tags">
+        <li>AI</li><li>Streamlit</li><li>Gemini AI</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary sm"
+           href="https://ai-content-assistantt.streamlit.app/"
+           target="_blank" rel="noopener noreferrer">
+          <i data-lucide="external-link"></i>Live Demo
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- PROJECT 5 -->
+  <article class="project reveal">
+    <div class="win">
+      <div class="bar"><i></i><i></i><i></i></div>
+      <div class="screen">
+        <div class="m-chat">
+          <p class="q">Write a professional email</p>
+          <p class="a">Your email draft is ready to use.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <h3>AI Email Generator</h3>
+      <p>
+        An AI-powered tool that helps users generate professional emails
+        based on their purpose and instructions.
+      </p>
+      <ul class="tags">
+        <li>Python</li><li>Gemini AI</li><li>Streamlit</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary sm"
+           href="https://kehkshan-afzal-ai-email-generator-app-xp16vo.streamlit.app/"
+           target="_blank" rel="noopener noreferrer">
+          <i data-lucide="external-link"></i>Live Demo
+        </a>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- EDUCATION SECTION -->
+<section id="education" class="sec reveal">
+  <h2><b>Education</b></h2>
+  <div class="entry">
+    <span class="when">Currently Pursuing</span>
+    <div>
+      <h3>Bachelor of Science in Computer Science (BSCS)</h3>
+      <p>Pakistan</p>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE SECTION -->
+<section id="experience" class="sec reveal">
+  <h2>Practical <b>experience</b></h2>
+
+  <div class="entry">
+    <span class="when">Project work</span>
+    <div>
+      <h3>AI application development</h3>
+      <p>
+        Created AI-powered applications using Python, Gemini AI and Streamlit,
+        including a learning roadmap generator and a resume ATS checker.
+      </p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <span class="when">Project work</span>
+    <div>
+      <h3>AI content and email generation</h3>
+      <p>
+        Developed AI-powered tools to help users generate written content
+        and professional email drafts.
+      </p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <span class="when">Project work</span>
+    <div>
+      <h3>Document-based AI (RAG)</h3>
+      <p>
+        Built a retrieval-based PDF assistant workflow for asking questions
+        about uploaded documents.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="sec reveal">
+  <div class="contact">
+    <h2>Let’s build something <b>useful</b> together.</h2>
+    <p>
+      I’m interested in learning opportunities, internships and collaborations.
+      Feel free to get in touch.
+    </p>
+
+    <div class="btns">
+      <a class="btn primary" href="mailto:kehkshanhafiza@gmail.com">
+        <i data-lucide="mail"></i>kehkshanhafiza@gmail.com
+      </a>
+      <button class="btn ghost" id="copyMail" type="button">
+        <i data-lucide="copy"></i>Copy email
+      </button>
+    </div>
+
+    <div class="btns">
+      <a class="btn ghost sm"
+         href="https://www.linkedin.com/in/hafiza-kehkshan-afzal-a6469436b/"
+         target="_blank" rel="noopener noreferrer">
+        <i data-lucide="linkedin"></i>LinkedIn
+      </a>
+      <a class="btn ghost sm"
+         href="https://github.com/kehkshan-afzal/kehkshan-afzal"
+         target="_blank" rel="noopener noreferrer">
+        <i data-lucide="github"></i>GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <strong>Kehkshan</strong>
+    <p>Frontend Developer | AI Developer</p>
+  </div>
+
+  <nav aria-label="Footer navigation">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="foot-r">
+    <p>© <span id="year"></span> Kehkshan · Built with HTML, CSS &amp; JavaScript</p>
+    <a href="#home" class="top" aria-label="Back to top">
+      <i data-lucide="arrow-up"></i>
+    </a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
